@@ -6,7 +6,7 @@ const projects = [
   {
     title: "AWS 2048 Game CI/CD Pipeline",
     description:
-      "Deployed the 2048 game with a CI/CD pipeline on AWS. Dockerized the app, stored images in ECR, and automated builds and deployments to ECS Fargate using CodePipeline and CodeBuild.",
+      "Automated deployment of the 2048 game using AWS CodePipeline and CodeBuild. Containerized with Docker, stored in ECR, and deployed on ECS Fargate with zero manual steps.",
     technologies: [
       "Docker",
       "AWS ECR",
@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Stock Market Real-Time Analytics Pipeline",
     description:
-      "Real-time stock market analytics pipeline using AWS fully managed, serverless services. The pipeline is capable of streaming, processing, storing, analyzing, and alerting on stock data with minimal operational overhead. ",
+      "Built a near real-time stock analytics pipeline with Kinesis, Lambda, and DynamoDB. Historical queries via Athena and Glue, plus trend alerts through SNS.",
     technologies: [
       "AWS Kinesis",
       "AWS Lambda",
@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Cybersecurity Threat Detection with SageMaker",
     description:
-      "I developed a machine learning pipeline on AWS to detect anomalous network activity. Preprocessed logs with Lambda, trained an XGBoost model in SageMaker, and deployed it as an endpoint for real-time threat detection. Integrated CloudWatch for monitoring and logging..",
+      "I developed a machine learning pipeline on AWS to detect anomalous network activity. Preprocessed logs with Lambda, trained an XGBoost model in SageMaker, and deployed it as an endpoint for real-time threat detection. Integrated CloudWatch for monitoring and logging.",
     technologies: ["Amazon SageMaker", "AWS Lambda", "Amazon S3", "Python", "Amazon CloudWatch", "AWS IAM", "Machine Learning", "XGBoost", "Cybersecurity"],
     github: "https://github.com/ronnienter/aws-cybersecurity-threat-detection-sagemaker",
   },
@@ -51,28 +51,26 @@ const projects = [
     github: "https://github.com/ronnienter/ronnienter-portfolio-website",
   },
   {
-    title: "Serverless 3-Tier Application",
+    title: "Production-grade 3-Tier Architecture",
     description:
       "A serverless 3-Tier application deployed on AWS Lambda using Terraform, featuring JWT authentication, MongoDB Atlas integration, and scalable infrastructure.",
     technologies: ["Terraform", "AWS Lambda", "S3", "CloudFront", "MERN Stack"],
-    github: "https://github.com/Ofor-David/serverless_mern_app",
+    github: "https://github.com/ronnienter/AWS-Grade-3-Tier-Architecture",
   },
   {
-    title: "Task Management App",
+    title: "Multicloud-Weather-Tracker-Terraform",
     description:
-      "A containerized task management app with basic CRUD operations and user authentication. Deployed on EC2 with auto scaling and load balancing",
+      "Deployed a weather tracker app across AWS and Azure with disaster recovery. Primary hosting on S3 + CloudFront, backup on Azure Blob Storage, and DNS failover via Route 53. Infrastructure fully automated with Terraform.",
     technologies: [
       "Terraform",
-      "Nginx",
-      "Docker",
-      "EC2",
-      "ASG",
-      "ALB",
-      "S3",
+      "AWS S3",
       "CloudFront",
-      "MERN Stack",
+      "AWS Blob Storage",
+      "Route 53",
+      "Multi-Cloud",
+      "Disaster Recovery",
     ],
-    github: "https://github.com/Ofor-David/TasksAPP",
+    github: "https://github.com/ronnienter/aws-multicloud-weather-tracker-terraform",
   },
   {
     title: "Bank Simulation App ",
