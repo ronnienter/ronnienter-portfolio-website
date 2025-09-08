@@ -82,7 +82,7 @@ const projects = [
   {
     title: "SpotiChop (Chrome Extension)",
     description:
-      "SpotiChop is a ightweight Chrome extension that skips Spotify Web tracks at a custom cutoff time. I wanted to automate skipping at a set time without touching the player every time.",
+      "SpotiChop is a lightweight Chrome extension that skips Spotify Web tracks at a custom cutoff time. I wanted to automate skipping at a set time without touching the player every time.",
     technologies: ["JavaScript", "Chrome Extensions", "Web Automation"],
     github: "https://github.com/ronnienter/SpotiChop",
   },
