@@ -80,11 +80,18 @@ const projects = [
     github: "https://github.com/ronnienter/aws-3-Tier-wordpress",
   },
   {
-    title: "Linux Server Setup",
+    title: "SpotiChop (Chrome Extension)",
     description:
-      "A Linux server setup and monitoring scriptfor a web application written in bash.",
-    technologies: ["Bash", "Linux"],
-    github: "https://github.com/Ofor-David/linux-server-automation",
+      "SpotiChop is a ightweight Chrome extension that skips Spotify Web tracks at a custom cutoff time. I wanted to automate skipping at a set time without touching the player every time.",
+    technologies: ["JavaScript", "Chrome Extensions", "Web Automation"],
+    github: "https://github.com/ronnienter/SpotiChop",
+  },
+  {
+    title: "n8n Phishing Check",
+    description:
+      "Automated workflow in n8n that scans submitted URLs with the VirusTotal API and emails a security report. Designed for phishing detection and lightweight SOC automation.",
+    technologies: ["JavaScript", "Chrome Extensions", "Web Automation"],
+    github: "https://github.com/ronnienter/n8n-phishing-check",
   },
 ];
 
