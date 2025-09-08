@@ -3,14 +3,26 @@ import { useInView } from 'react-intersection-observer';
 
 const skills = [
   {
-    category: 'Cloud & Infrastructure',
+  category: 'Cloud & Infrastructure',
+  items: [
+    { name: 'AWS', icon: 'aws' },
+    { name: 'Terraform', icon: 'terraform' },
+    { name: 'Docker', icon: 'docker' },
+    { name: 'Github Actions', icon: 'githubactions' },
+  ],
+  subcategory: {
+    title: 'Security & Monitoring',
     items: [
-      { name: 'AWS', icon: 'aws' },
-      { name: 'Terraform', icon: 'terraform' },
-      { name: 'Docker', icon: 'docker' },
-      { name: 'Github Actions', icon: 'githubactions' },
+      { name: 'Kali Linux', icon: 'kalilinux' },
+      { name: 'Burp Suite', icon: 'burpsuite' },
+      { name: 'Wireshark', icon: 'wireshark' },
+      { name: 'Nmap', icon: 'nmap' },
+      { name: 'Metasploit', icon: 'metasploit' },
+      { name: 'OWASP ZAP', icon: 'owasp' },
     ],
   },
+},
+
   {
     category: 'AWS Services',
     items: [
