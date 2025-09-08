@@ -90,7 +90,7 @@ const projects = [
     title: "n8n Phishing Check",
     description:
       "Automated workflow in n8n that scans submitted URLs with the VirusTotal API and emails a security report. Designed for phishing detection and lightweight SOC automation.",
-    technologies: ["JavaScript", "Chrome Extensions", "Web Automation"],
+    technologies: ["n8n", "VirusTotal API", "Automation", "Security"],
     github: "https://github.com/ronnienter/n8n-phishing-check",
   },
 ];
