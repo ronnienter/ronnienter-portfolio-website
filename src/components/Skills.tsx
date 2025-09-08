@@ -121,37 +121,6 @@ const Skills = () => {
                       <span className="text-gray-700 dark:text-gray-300">{skill.name}</span>
                     </motion.div>
                   ))}
-                {category.subcategory && (
-  <>
-    <h4 className="col-span-2 mt-6 mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
-      {category.subcategory.title}
-    </h4>
-    {category.subcategory.items.map((skill, subIndex) => (
-      <motion.div
-        key={`sub-${subIndex}`}
-        initial={{ opacity: 0, y: 20 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8, delay: (index * 0.2) + (subIndex * 0.1) }}
-        className="flex items-center gap-3 p-3 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-      >
-        <div className="w-6 h-6 flex-shrink-0">
-          <img
-            src={`/icons/${skill.icon}.svg`}
-            alt={skill.name}
-            className="w-full h-full object-contain"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.src = `/icons/${skill.icon}.png`;
-              target.onerror = null;
-            }}
-          />
-        </div>
-        <span className="text-gray-700 dark:text-gray-300">{skill.name}</span>
-      </motion.div>
-    ))}
-  </>
-)}
-
                 </div>
               </motion.div>
             ))}
