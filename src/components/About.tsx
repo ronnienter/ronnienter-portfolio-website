@@ -65,10 +65,10 @@ const About = () => {
         >
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 transition-colors duration-300">
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              I am a passionate Cloud & Cybersecurity Engineer with experience in securing and optimizing cloud environments. My journey in technology began with web development, which later evolved into a strong focus on cybersecurity, cloud infrastructure, and automation. 
+              My journey in technology started with web development, which naturally evolved into a focus on cloud infrastructure, cybersecurity, and automation. 
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              With experience in AWS, Terraform, and Docker, I specialize in building scalable, secure, and reliable cloud solutions. I believe in the power of automation and infrastructure as code to create efficient, secure, and maintainable systems.
+              I specialize in designing, deploying, and securing cloud environments using AWS, Terraform, and Docker, with an emphasis on infrastructure as code and operational efficiency.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
               Beyond work, I enjoy watching football, basketball, baseball, participating in CTF competitions, and exploring new tools in the cyberspace.

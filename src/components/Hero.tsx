@@ -32,7 +32,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8"
         >
-          A passionate Cloud & Cybersecurity Engineer focused on infrastructure, operations, and security
+          A Cloud & Cybersecurity Engineer passionate about building secure, scalable, and reliable cloud infrastructures.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
