@@ -73,11 +73,11 @@ const projects = [
     github: "https://github.com/ronnienter/aws-multicloud-weather-tracker-terraform",
   },
   {
-    title: "Bank Simulation App ",
+    title: "WordPress 3-Tier Architecture",
     description:
-      "A simple yet functional banking system written in Java that allows users to create and manage accounts, deposit and withdraw funds, view account balances and details, and track their complete transaction history. It's designed to simulate core banking operations in an intuitive and user-friendly way.",
-    technologies: ["Java", "OOP"],
-    github: "https://github.com/Ofor-David/Bank-Simulation-App",
+      "Deployed WordPress on AWS using a secure 3-Tier architecture. Setup includes VPC with public/private subnets, EC2 in Auto Scaling Group, RDS for the database, EFS for shared storage, and an ALB with SSL termination.",
+    technologies: ["AWS VPC", "EC2", "RDS", "Auto Scaling", "ALB", "Elastic File System", "NAT Gateway", "IAM", "Security Groups", "SSL/TLS"],
+    github: "https://github.com/ronnienter/aws-3-Tier-wordpress",
   },
   {
     title: "Linux Server Setup",
